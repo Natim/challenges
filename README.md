@@ -16,10 +16,8 @@ Configuration
 
 1. Clone the repo
 2. Install the dependencies:
-    * pip install Flask
-    * pip install Flask-SQLAlchemy
-    * pip install Flask-Wtf
-    * pip install Flask-Login
-    * pip install Flask-Admin
+    * sudo  pip install virtualenvwrapper
+    * mkvirtualenv challenges -p python2.7
+    * pip install -r requiremets.pip
 3. Start the server with:
-    * python2.7 runserver.py
+    * python runserver.py
